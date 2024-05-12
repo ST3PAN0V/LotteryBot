@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -g CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o -o LotteryBotActivate 

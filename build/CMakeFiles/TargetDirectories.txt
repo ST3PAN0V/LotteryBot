@@ -1,0 +1,3 @@
+/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles/LotteryBotActivate.dir
+/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles/edit_cache.dir
+/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles/rebuild_cache.dir
