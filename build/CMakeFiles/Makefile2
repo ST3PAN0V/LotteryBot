@@ -64,15 +64,51 @@ CMAKE_BINARY_DIR = /home/stepanov/Documents/vs_code/github/lotteryBot/build
 
 # The main recursive "all" target.
 all: CMakeFiles/LotteryBotActivate.dir/all
+all: SQLiteCpp/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: SQLiteCpp/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/LotteryBotActivate.dir/clean
+clean: SQLiteCpp/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory SQLiteCpp
+
+# Recursive "all" directory target.
+SQLiteCpp/all: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/all
+SQLiteCpp/all: SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/all
+SQLiteCpp/all: SQLiteCpp/sqlite3/all
+.PHONY : SQLiteCpp/all
+
+# Recursive "preinstall" directory target.
+SQLiteCpp/preinstall: SQLiteCpp/sqlite3/preinstall
+.PHONY : SQLiteCpp/preinstall
+
+# Recursive "clean" directory target.
+SQLiteCpp/clean: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/clean
+SQLiteCpp/clean: SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/clean
+SQLiteCpp/clean: SQLiteCpp/sqlite3/clean
+.PHONY : SQLiteCpp/clean
+
+#=============================================================================
+# Directory level rules for directory SQLiteCpp/sqlite3
+
+# Recursive "all" directory target.
+SQLiteCpp/sqlite3/all: SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/all
+.PHONY : SQLiteCpp/sqlite3/all
+
+# Recursive "preinstall" directory target.
+SQLiteCpp/sqlite3/preinstall:
+.PHONY : SQLiteCpp/sqlite3/preinstall
+
+# Recursive "clean" directory target.
+SQLiteCpp/sqlite3/clean: SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/clean
+.PHONY : SQLiteCpp/sqlite3/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/LotteryBotActivate.dir
@@ -81,12 +117,12 @@ clean: CMakeFiles/LotteryBotActivate.dir/clean
 CMakeFiles/LotteryBotActivate.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=1,2,3 "Built target LotteryBotActivate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target LotteryBotActivate"
 .PHONY : CMakeFiles/LotteryBotActivate.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LotteryBotActivate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LotteryBotActivate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles 0
 .PHONY : CMakeFiles/LotteryBotActivate.dir/rule
@@ -99,6 +135,84 @@ LotteryBotActivate: CMakeFiles/LotteryBotActivate.dir/rule
 CMakeFiles/LotteryBotActivate.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/clean
 .PHONY : CMakeFiles/LotteryBotActivate.dir/clean
+
+#=============================================================================
+# Target rules for target SQLiteCpp/CMakeFiles/SQLiteCpp.dir
+
+# All Build rule for target.
+SQLiteCpp/CMakeFiles/SQLiteCpp.dir/all:
+	$(MAKE) $(MAKESILENT) -f SQLiteCpp/CMakeFiles/SQLiteCpp.dir/build.make SQLiteCpp/CMakeFiles/SQLiteCpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f SQLiteCpp/CMakeFiles/SQLiteCpp.dir/build.make SQLiteCpp/CMakeFiles/SQLiteCpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=6,7,8,9,10,11,12,13 "Built target SQLiteCpp"
+.PHONY : SQLiteCpp/CMakeFiles/SQLiteCpp.dir/all
+
+# Build rule for subdir invocation for target.
+SQLiteCpp/CMakeFiles/SQLiteCpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles 0
+.PHONY : SQLiteCpp/CMakeFiles/SQLiteCpp.dir/rule
+
+# Convenience name for target.
+SQLiteCpp: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/rule
+.PHONY : SQLiteCpp
+
+# clean rule for target.
+SQLiteCpp/CMakeFiles/SQLiteCpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f SQLiteCpp/CMakeFiles/SQLiteCpp.dir/build.make SQLiteCpp/CMakeFiles/SQLiteCpp.dir/clean
+.PHONY : SQLiteCpp/CMakeFiles/SQLiteCpp.dir/clean
+
+#=============================================================================
+# Target rules for target SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir
+
+# All Build rule for target.
+SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/all:
+	$(MAKE) $(MAKESILENT) -f SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/build.make SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/depend
+	$(MAKE) $(MAKESILENT) -f SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/build.make SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num= "Built target SQLiteCpp_cpplint"
+.PHONY : SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/all
+
+# Build rule for subdir invocation for target.
+SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles 0
+.PHONY : SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/rule
+
+# Convenience name for target.
+SQLiteCpp_cpplint: SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/rule
+.PHONY : SQLiteCpp_cpplint
+
+# clean rule for target.
+SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/clean:
+	$(MAKE) $(MAKESILENT) -f SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/build.make SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/clean
+.PHONY : SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/clean
+
+#=============================================================================
+# Target rules for target SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir
+
+# All Build rule for target.
+SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/all:
+	$(MAKE) $(MAKESILENT) -f SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/build.make SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/depend
+	$(MAKE) $(MAKESILENT) -f SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/build.make SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=14,15 "Built target sqlite3"
+.PHONY : SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/all
+
+# Build rule for subdir invocation for target.
+SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles 0
+.PHONY : SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/rule
+
+# Convenience name for target.
+sqlite3: SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/rule
+.PHONY : sqlite3
+
+# clean rule for target.
+SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/build.make SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/clean
+.PHONY : SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o"
-  "CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o.d"
+  "CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o"
+  "CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o.d"
+  "CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o"
+  "CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o.d"
   "CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o"
   "CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o.d"
+  "CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o"
+  "CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o.d"
   "LotteryBotActivate"
   "LotteryBotActivate.pdb"
 )

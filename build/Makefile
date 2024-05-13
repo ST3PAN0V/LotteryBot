@@ -85,6 +85,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"headers\" \"libraries\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles /home/stepanov/Documents/vs_code/github/lotteryBot/build//CMakeFiles/progress.marks
@@ -129,29 +174,92 @@ LotteryBotActivate/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/build
 .PHONY : LotteryBotActivate/fast
 
-sources/lottery.o: sources/lottery.cpp.o
-.PHONY : sources/lottery.o
+#=============================================================================
+# Target rules for targets named SQLiteCpp
+
+# Build rule for target.
+SQLiteCpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SQLiteCpp
+.PHONY : SQLiteCpp
+
+# fast build rule for target.
+SQLiteCpp/fast:
+	$(MAKE) $(MAKESILENT) -f SQLiteCpp/CMakeFiles/SQLiteCpp.dir/build.make SQLiteCpp/CMakeFiles/SQLiteCpp.dir/build
+.PHONY : SQLiteCpp/fast
+
+#=============================================================================
+# Target rules for targets named SQLiteCpp_cpplint
+
+# Build rule for target.
+SQLiteCpp_cpplint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SQLiteCpp_cpplint
+.PHONY : SQLiteCpp_cpplint
+
+# fast build rule for target.
+SQLiteCpp_cpplint/fast:
+	$(MAKE) $(MAKESILENT) -f SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/build.make SQLiteCpp/CMakeFiles/SQLiteCpp_cpplint.dir/build
+.PHONY : SQLiteCpp_cpplint/fast
+
+#=============================================================================
+# Target rules for targets named sqlite3
+
+# Build rule for target.
+sqlite3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sqlite3
+.PHONY : sqlite3
+
+# fast build rule for target.
+sqlite3/fast:
+	$(MAKE) $(MAKESILENT) -f SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/build.make SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/build
+.PHONY : sqlite3/fast
+
+sources/dataBaseTools/dataBase.o: sources/dataBaseTools/dataBase.cpp.o
+.PHONY : sources/dataBaseTools/dataBase.o
 
 # target to build an object file
-sources/lottery.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o
-.PHONY : sources/lottery.cpp.o
+sources/dataBaseTools/dataBase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o
+.PHONY : sources/dataBaseTools/dataBase.cpp.o
 
-sources/lottery.i: sources/lottery.cpp.i
-.PHONY : sources/lottery.i
+sources/dataBaseTools/dataBase.i: sources/dataBaseTools/dataBase.cpp.i
+.PHONY : sources/dataBaseTools/dataBase.i
 
 # target to preprocess a source file
-sources/lottery.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.i
-.PHONY : sources/lottery.cpp.i
+sources/dataBaseTools/dataBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.i
+.PHONY : sources/dataBaseTools/dataBase.cpp.i
 
-sources/lottery.s: sources/lottery.cpp.s
-.PHONY : sources/lottery.s
+sources/dataBaseTools/dataBase.s: sources/dataBaseTools/dataBase.cpp.s
+.PHONY : sources/dataBaseTools/dataBase.s
 
 # target to generate assembly for a file
-sources/lottery.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.s
-.PHONY : sources/lottery.cpp.s
+sources/dataBaseTools/dataBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.s
+.PHONY : sources/dataBaseTools/dataBase.cpp.s
+
+sources/lotteryLogic/lottery.o: sources/lotteryLogic/lottery.cpp.o
+.PHONY : sources/lotteryLogic/lottery.o
+
+# target to build an object file
+sources/lotteryLogic/lottery.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o
+.PHONY : sources/lotteryLogic/lottery.cpp.o
+
+sources/lotteryLogic/lottery.i: sources/lotteryLogic/lottery.cpp.i
+.PHONY : sources/lotteryLogic/lottery.i
+
+# target to preprocess a source file
+sources/lotteryLogic/lottery.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.i
+.PHONY : sources/lotteryLogic/lottery.cpp.i
+
+sources/lotteryLogic/lottery.s: sources/lotteryLogic/lottery.cpp.s
+.PHONY : sources/lotteryLogic/lottery.s
+
+# target to generate assembly for a file
+sources/lotteryLogic/lottery.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.s
+.PHONY : sources/lotteryLogic/lottery.cpp.s
 
 sources/main.o: sources/main.cpp.o
 .PHONY : sources/main.o
@@ -177,6 +285,30 @@ sources/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.s
 .PHONY : sources/main.cpp.s
 
+sources/telegramBotLogic/telegramBot.o: sources/telegramBotLogic/telegramBot.cpp.o
+.PHONY : sources/telegramBotLogic/telegramBot.o
+
+# target to build an object file
+sources/telegramBotLogic/telegramBot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o
+.PHONY : sources/telegramBotLogic/telegramBot.cpp.o
+
+sources/telegramBotLogic/telegramBot.i: sources/telegramBotLogic/telegramBot.cpp.i
+.PHONY : sources/telegramBotLogic/telegramBot.i
+
+# target to preprocess a source file
+sources/telegramBotLogic/telegramBot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.i
+.PHONY : sources/telegramBotLogic/telegramBot.cpp.i
+
+sources/telegramBotLogic/telegramBot.s: sources/telegramBotLogic/telegramBot.cpp.s
+.PHONY : sources/telegramBotLogic/telegramBot.s
+
+# target to generate assembly for a file
+sources/telegramBotLogic/telegramBot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LotteryBotActivate.dir/build.make CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.s
+.PHONY : sources/telegramBotLogic/telegramBot.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -184,14 +316,27 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... SQLiteCpp_cpplint"
 	@echo "... LotteryBotActivate"
-	@echo "... sources/lottery.o"
-	@echo "... sources/lottery.i"
-	@echo "... sources/lottery.s"
+	@echo "... SQLiteCpp"
+	@echo "... sqlite3"
+	@echo "... sources/dataBaseTools/dataBase.o"
+	@echo "... sources/dataBaseTools/dataBase.i"
+	@echo "... sources/dataBaseTools/dataBase.s"
+	@echo "... sources/lotteryLogic/lottery.o"
+	@echo "... sources/lotteryLogic/lottery.i"
+	@echo "... sources/lotteryLogic/lottery.s"
 	@echo "... sources/main.o"
 	@echo "... sources/main.i"
 	@echo "... sources/main.s"
+	@echo "... sources/telegramBotLogic/telegramBot.o"
+	@echo "... sources/telegramBotLogic/telegramBot.i"
+	@echo "... sources/telegramBotLogic/telegramBot.s"
 .PHONY : help
 
 

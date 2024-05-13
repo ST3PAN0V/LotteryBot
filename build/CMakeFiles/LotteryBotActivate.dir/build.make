@@ -69,47 +69,84 @@ include CMakeFiles/LotteryBotActivate.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LotteryBotActivate.dir/flags.make
 
+CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o: CMakeFiles/LotteryBotActivate.dir/flags.make
+CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o: ../sources/dataBaseTools/dataBase.cpp
+CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o: CMakeFiles/LotteryBotActivate.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o -MF CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o.d -o CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/sources/dataBaseTools/dataBase.cpp
+
+CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/sources/dataBaseTools/dataBase.cpp > CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.i
+
+CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/sources/dataBaseTools/dataBase.cpp -o CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.s
+
+CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o: CMakeFiles/LotteryBotActivate.dir/flags.make
+CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o: ../sources/lotteryLogic/lottery.cpp
+CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o: CMakeFiles/LotteryBotActivate.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o -MF CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o.d -o CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/sources/lotteryLogic/lottery.cpp
+
+CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/sources/lotteryLogic/lottery.cpp > CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.i
+
+CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/sources/lotteryLogic/lottery.cpp -o CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.s
+
+CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o: CMakeFiles/LotteryBotActivate.dir/flags.make
+CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o: ../sources/telegramBotLogic/telegramBot.cpp
+CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o: CMakeFiles/LotteryBotActivate.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o -MF CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o.d -o CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/sources/telegramBotLogic/telegramBot.cpp
+
+CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/sources/telegramBotLogic/telegramBot.cpp > CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.i
+
+CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/sources/telegramBotLogic/telegramBot.cpp -o CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.s
+
 CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o: CMakeFiles/LotteryBotActivate.dir/flags.make
 CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o: ../sources/main.cpp
 CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o: CMakeFiles/LotteryBotActivate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o -MF CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o.d -o CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/sources/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o -MF CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o.d -o CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/sources/main.cpp
 
 CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/sources/main.cpp > CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/sources/main.cpp > CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.i
 
 CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/sources/main.cpp -o CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.s
-
-CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o: CMakeFiles/LotteryBotActivate.dir/flags.make
-CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o: ../sources/lottery.cpp
-CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o: CMakeFiles/LotteryBotActivate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o -MF CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o.d -o CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/sources/lottery.cpp
-
-CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/sources/lottery.cpp > CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.i
-
-CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/sources/lottery.cpp -o CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/sources/main.cpp -o CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.s
 
 # Object files for target LotteryBotActivate
 LotteryBotActivate_OBJECTS = \
-"CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o" \
-"CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o"
+"CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o" \
+"CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o" \
+"CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o" \
+"CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o"
 
 # External object files for target LotteryBotActivate
 LotteryBotActivate_EXTERNAL_OBJECTS =
 
+LotteryBotActivate: CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o
+LotteryBotActivate: CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o
+LotteryBotActivate: CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o
 LotteryBotActivate: CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o
-LotteryBotActivate: CMakeFiles/LotteryBotActivate.dir/sources/lottery.cpp.o
 LotteryBotActivate: CMakeFiles/LotteryBotActivate.dir/build.make
+LotteryBotActivate: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
+LotteryBotActivate: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
+LotteryBotActivate: /usr/lib/x86_64-linux-gnu/libssl.so
+LotteryBotActivate: /usr/lib/x86_64-linux-gnu/libcrypto.so
+LotteryBotActivate: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 LotteryBotActivate: CMakeFiles/LotteryBotActivate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LotteryBotActivate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable LotteryBotActivate"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LotteryBotActivate.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
