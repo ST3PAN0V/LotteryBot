@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/stepanov/Documents/vs_code/github/lotteryBot/build",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED   -g -g -o CMakeFiles/LotteryBotActivate.dir/sources/dataBaseTools/dataBase.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/sources/dataBaseTools/dataBase.cpp",
+  "file": "/home/stepanov/Documents/vs_code/github/lotteryBot/sources/dataBaseTools/dataBase.cpp"
+},
+{
+  "directory": "/home/stepanov/Documents/vs_code/github/lotteryBot/build",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED   -g -g -o CMakeFiles/LotteryBotActivate.dir/sources/lotteryLogic/lottery.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/sources/lotteryLogic/lottery.cpp",
+  "file": "/home/stepanov/Documents/vs_code/github/lotteryBot/sources/lotteryLogic/lottery.cpp"
+},
+{
+  "directory": "/home/stepanov/Documents/vs_code/github/lotteryBot/build",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED   -g -g -o CMakeFiles/LotteryBotActivate.dir/sources/telegramBotLogic/telegramBot.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/sources/telegramBotLogic/telegramBot.cpp",
+  "file": "/home/stepanov/Documents/vs_code/github/lotteryBot/sources/telegramBotLogic/telegramBot.cpp"
+},
+{
+  "directory": "/home/stepanov/Documents/vs_code/github/lotteryBot/build",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED   -g -g -o CMakeFiles/LotteryBotActivate.dir/sources/main.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/sources/main.cpp",
+  "file": "/home/stepanov/Documents/vs_code/github/lotteryBot/sources/main.cpp"
+},
+{
+  "directory": "/home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp",
+  "command": "/usr/bin/g++ -DSQLITE_ENABLE_COLUMN_METADATA -I/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/include  -g -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -fPIC -fstack-protector -std=gnu++17 -o CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Backup.cpp",
+  "file": "/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Backup.cpp"
+},
+{
+  "directory": "/home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp",
+  "command": "/usr/bin/g++ -DSQLITE_ENABLE_COLUMN_METADATA -I/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/include  -g -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -fPIC -fstack-protector -std=gnu++17 -o CMakeFiles/SQLiteCpp.dir/src/Column.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Column.cpp",
+  "file": "/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Column.cpp"
+},
+{
+  "directory": "/home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp",
+  "command": "/usr/bin/g++ -DSQLITE_ENABLE_COLUMN_METADATA -I/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/include  -g -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -fPIC -fstack-protector -std=gnu++17 -o CMakeFiles/SQLiteCpp.dir/src/Database.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Database.cpp",
+  "file": "/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Database.cpp"
+},
+{
+  "directory": "/home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp",
+  "command": "/usr/bin/g++ -DSQLITE_ENABLE_COLUMN_METADATA -I/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/include  -g -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -fPIC -fstack-protector -std=gnu++17 -o CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Exception.cpp",
+  "file": "/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Exception.cpp"
+},
+{
+  "directory": "/home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp",
+  "command": "/usr/bin/g++ -DSQLITE_ENABLE_COLUMN_METADATA -I/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/include  -g -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -fPIC -fstack-protector -std=gnu++17 -o CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Savepoint.cpp",
+  "file": "/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Savepoint.cpp"
+},
+{
+  "directory": "/home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp",
+  "command": "/usr/bin/g++ -DSQLITE_ENABLE_COLUMN_METADATA -I/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/include  -g -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -fPIC -fstack-protector -std=gnu++17 -o CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Statement.cpp",
+  "file": "/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Statement.cpp"
+},
+{
+  "directory": "/home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp",
+  "command": "/usr/bin/g++ -DSQLITE_ENABLE_COLUMN_METADATA -I/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/include  -g -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -fPIC -fstack-protector -std=gnu++17 -o CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Transaction.cpp",
+  "file": "/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Transaction.cpp"
+},
+{
+  "directory": "/home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp/sqlite3",
+  "command": "/usr/bin/gcc -DSQLITE_ENABLE_COLUMN_METADATA -I/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/sqlite3 -g -fPIC -fstack-protector -ffunction-sections -Wimplicit-fallthrough=0 -Wno-cast-function-type -o CMakeFiles/sqlite3.dir/sqlite3.c.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/sqlite3/sqlite3.c",
+  "file": "/home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/sqlite3/sqlite3.c"
+}
+]

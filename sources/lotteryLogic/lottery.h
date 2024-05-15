@@ -19,8 +19,30 @@ class User;
 class Ticket;
 class LotteryField;
 
-extern const std::unordered_map<int,int> ticketAttemptsAndCost;
-extern const std::unordered_map<int,int> countGuessesAndWinAmount;
+const std::unordered_map<int,int> ticketAttemptsAndCost = {
+    {6, 50},
+    {7, 350},
+    {8, 1'400},
+    {9, 4'200},
+    {10, 10'500},
+    {11, 23'100},
+    {12, 46'200},
+    {13, 85'800},
+    {14, 150'150},
+    {15, 250'250},
+    {16, 400'400},
+    {17, 618'800},
+    {18, 928'200},
+    {19, 1'356'600}
+};
+
+const std::unordered_map<int,int> countGuessesAndWinAmount = {
+    {2, 100},
+    {3, 300},
+    {4, 1'500},
+    {5, 100'000},
+    {6, 150'000'000}
+};
 
 //-------------------------------------------------------------------------------------
 

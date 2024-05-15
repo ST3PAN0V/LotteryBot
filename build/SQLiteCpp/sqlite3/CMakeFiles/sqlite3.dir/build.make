@@ -73,15 +73,15 @@ SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o: SQLiteCpp/sqlite3/CMakeFil
 SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o: ../SQLiteCpp/sqlite3/sqlite3.c
 SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o: SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp/sqlite3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o -MF CMakeFiles/sqlite3.dir/sqlite3.c.o.d -o CMakeFiles/sqlite3.dir/sqlite3.c.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/sqlite3/sqlite3.c
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp/sqlite3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o -MF CMakeFiles/sqlite3.dir/sqlite3.c.o.d -o CMakeFiles/sqlite3.dir/sqlite3.c.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/sqlite3/sqlite3.c
 
 SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sqlite3.dir/sqlite3.c.i"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp/sqlite3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/sqlite3/sqlite3.c > CMakeFiles/sqlite3.dir/sqlite3.c.i
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp/sqlite3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/sqlite3/sqlite3.c > CMakeFiles/sqlite3.dir/sqlite3.c.i
 
 SQLiteCpp/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sqlite3.dir/sqlite3.c.s"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp/sqlite3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/sqlite3/sqlite3.c -o CMakeFiles/sqlite3.dir/sqlite3.c.s
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp/sqlite3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/sqlite3/sqlite3.c -o CMakeFiles/sqlite3.dir/sqlite3.c.s
 
 # Object files for target sqlite3
 sqlite3_OBJECTS = \

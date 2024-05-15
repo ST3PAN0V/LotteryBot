@@ -73,99 +73,99 @@ SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.o: SQLiteCpp/CMakeFiles/SQLite
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.o: ../SQLiteCpp/src/Backup.cpp
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.o"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Backup.cpp
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Backup.cpp
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.i"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Backup.cpp > CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.i
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Backup.cpp > CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.i
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.s"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Backup.cpp -o CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.s
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Backup.cpp -o CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.s
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Column.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/flags.make
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Column.cpp.o: ../SQLiteCpp/src/Column.cpp
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Column.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Column.cpp.o"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Column.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Column.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Column.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Column.cpp
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Column.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Column.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Column.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Column.cpp
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Column.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SQLiteCpp.dir/src/Column.cpp.i"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Column.cpp > CMakeFiles/SQLiteCpp.dir/src/Column.cpp.i
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Column.cpp > CMakeFiles/SQLiteCpp.dir/src/Column.cpp.i
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Column.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SQLiteCpp.dir/src/Column.cpp.s"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Column.cpp -o CMakeFiles/SQLiteCpp.dir/src/Column.cpp.s
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Column.cpp -o CMakeFiles/SQLiteCpp.dir/src/Column.cpp.s
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Database.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/flags.make
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Database.cpp.o: ../SQLiteCpp/src/Database.cpp
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Database.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Database.cpp.o"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Database.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Database.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Database.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Database.cpp
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Database.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Database.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Database.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Database.cpp
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Database.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SQLiteCpp.dir/src/Database.cpp.i"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Database.cpp > CMakeFiles/SQLiteCpp.dir/src/Database.cpp.i
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Database.cpp > CMakeFiles/SQLiteCpp.dir/src/Database.cpp.i
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Database.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SQLiteCpp.dir/src/Database.cpp.s"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Database.cpp -o CMakeFiles/SQLiteCpp.dir/src/Database.cpp.s
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Database.cpp -o CMakeFiles/SQLiteCpp.dir/src/Database.cpp.s
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/flags.make
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.o: ../SQLiteCpp/src/Exception.cpp
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.o"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Exception.cpp
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Exception.cpp
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.i"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Exception.cpp > CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.i
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Exception.cpp > CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.i
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.s"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Exception.cpp -o CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.s
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Exception.cpp -o CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.s
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/flags.make
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.o: ../SQLiteCpp/src/Savepoint.cpp
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.o"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Savepoint.cpp
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Savepoint.cpp
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.i"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Savepoint.cpp > CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.i
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Savepoint.cpp > CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.i
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.s"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Savepoint.cpp -o CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.s
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Savepoint.cpp -o CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.s
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/flags.make
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.o: ../SQLiteCpp/src/Statement.cpp
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.o"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Statement.cpp
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Statement.cpp
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.i"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Statement.cpp > CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.i
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Statement.cpp > CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.i
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.s"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Statement.cpp -o CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.s
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Statement.cpp -o CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.s
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/flags.make
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.o: ../SQLiteCpp/src/Transaction.cpp
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.o: SQLiteCpp/CMakeFiles/SQLiteCpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanov/Documents/vs_code/github/lotteryBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.o"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Transaction.cpp
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.o -MF CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.o.d -o CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.o -c /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Transaction.cpp
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.i"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Transaction.cpp > CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.i
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Transaction.cpp > CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.i
 
 SQLiteCpp/CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.s"
-	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Transaction.cpp -o CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.s
+	cd /home/stepanov/Documents/vs_code/github/lotteryBot/build/SQLiteCpp && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanov/Documents/vs_code/github/lotteryBot/SQLiteCpp/src/Transaction.cpp -o CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.s
 
 # Object files for target SQLiteCpp
 SQLiteCpp_OBJECTS = \
